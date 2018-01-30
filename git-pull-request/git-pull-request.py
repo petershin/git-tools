@@ -1654,10 +1654,10 @@ def main():
 			pull_title = None
 
 			if arg_length >= 2:
-				pull_body = args[1]
+				pull_title = args[1]
 
 			if arg_length >= 3:
-				pull_title = args[2]
+				pull_body = args[2]
 
 			command_submit(repo_name, username, reviewer_repo_name, pull_body, pull_title, submitOpenGitHub)
 		elif command == 'update':
